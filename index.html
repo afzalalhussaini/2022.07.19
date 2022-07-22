@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Bin Umar Website Desighn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="introduction.html">Introduction</a></li>
+                    <li><a href="sectors.html">Sectors</a></li>
+                    <li><a href="contect.html">contect</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Jamia Abdullah Bin Umar</h1>
+            <p> Suwwa Gajjumatta 23 Km Fairoz Pur Road Kahna Noa Lahore</p>
+            <a href="button" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!------Course------>
+          <section class="course">
+            <h1>Course We Offer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3> Educational Department</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolore ea atque quisquam quasi odio nam, totam sit illum! Dolor cum explicabo ipsam illum eius suscipit enim minima. Voluptate, incidunt.</p>
+                </div>
+                <div class="course-col">
+                    <h3> Dars e Nizami Department</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolore ea atque quisquam quasi odio nam, totam sit illum! Dolor cum explicabo ipsam illum eius suscipit enim minima. Voluptate, incidunt.</p>
+                     </div>
+                     <div class="course-col">
+                        <h3> Hifz o Nazra Department</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolore ea atque quisquam quasi odio nam, totam sit illum! Dolor cum explicabo ipsam illum eius suscipit enim minima. Voluptate, incidunt.</p>
+            </div>
+
+          </section>
+          <!-----Facilities----->
+
+            <section class="facilities">
+                <h1>Our Facilities</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="laibrary.jpg">
+                        <h3>World Class laibrary</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsam et assumenda voluptatum, quia qui magnam placeat, atque aspernatur harum quaerat cum ipsa iure magni aut voluptates quam error explicabo.</p>
+                        </div>
+                        <div class="facilities-col">
+                            <img src="dispensary.jpg">
+                            <h3>Better Dispensary</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsam et assumenda voluptatum, quia qui magnam placeat, atque aspernatur harum quaerat cum ipsa iure magni aut voluptates quam error explicabo.</p>
+                            </div>
+                            <div class="facilities-col">
+                                <img src="food.jpg">
+                                <h3>Food Festivals</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ipsam et assumenda voluptatum, quia qui magnam placeat, atque aspernatur harum quaerat cum ipsa iure magni aut voluptates quam error explicabo.</p>
+                    </div>
+                </div>
+            </section>
+             
+            <!-----Footer----->
+
+            <section class="footer">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</p>
+                 <div class="icons">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-instagram"></i> 
+                <i class="fa fa-linkedin"></i>
+                </div>              
+                <p>Made With <i class="fa fa-heart-o"></i> By Muhammad Afzal Ashraf</p>
+            </section>
+
+    <!------JavaScript for Toggle Menu------>
+      <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+      </script>
+    
+</body>
+</html>
+
+
+
