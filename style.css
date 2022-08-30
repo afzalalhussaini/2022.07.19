@@ -69,12 +69,12 @@ nav img{
 }
 .text-box h1{
     font-size: 80px;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
+    text-shadow: 0 0 3px #c79090, 0 0 5px #7474c4; 
 }
 .text-box p{
     margin: 10px 0 40px;
     font-size: 30px;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 3px #886161, 0 0 5px #646496;
     color: #fff;
 }
 .hero-btn{
@@ -193,7 +193,7 @@ h3{
 
 .facilities{
     width: 80%;
-    margin: auto; 
+    margin:auto; 
     text-align: center;
     padding-top: 40px;
 }
